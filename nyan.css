@@ -1,5 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 #start {
-  background-color: rgb(18, 77, 77);
+  background-color: rgb(47, 235, 235);
   color: black;
   border-radius: 5px;
   position: absolute;
@@ -10,6 +15,8 @@
 }
 
 body {
+  width: 100vw;
+  height: 100vh;
   background: linear-gradient(
     to bottom right,
     red,
@@ -20,4 +27,15 @@ body {
     indigo,
     violet
   );
+}
+
+#nyan {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 150px;
+  width: 150px;
+  background-image: url(./pics/nyan.png); /*cover no-repeat center; */
+  background-size: cover;
+  background-position: center;
 }
