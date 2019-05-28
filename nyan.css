@@ -1,0 +1,23 @@
+#start {
+  background-color: rgb(18, 77, 77);
+  color: black;
+  border-radius: 5px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  height: 50px;
+}
+
+body {
+  background: linear-gradient(
+    to bottom right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+}
