@@ -5,6 +5,7 @@ function rain() {
   var pos = 0;
   var id = setInterval(frame, 40);
   elem.style.display = "block";
+  document.getElementById("start").style.display = "none";
 
   function frame() {
     if (pos == 100) {
