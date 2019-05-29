@@ -1,4 +1,5 @@
 document.getElementById("start").addEventListener("click", rain);
+document.getElementById("start").addEventListener("click", background);
 
 function rain() {
   var elem = document.getElementById("nyan");
@@ -16,4 +17,9 @@ function rain() {
       elem.style.left = pos + "%";
     }
   }
+}
+
+function background() {
+  document.getElementsByTagName("body").src = "./pics/bg.png";
+  console.log("bg");
 }
